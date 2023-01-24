@@ -4,7 +4,7 @@ body {
 
 #navbar {
     overflow: hidden;
-    background-color: darkseagreen;
+    background-color: #B6efdb;
 }
 
 #navbar a {
@@ -19,7 +19,7 @@ body {
 
 footer {
     overflow: hidden;
-    background-color: darkseagreen;
+    background-color: #B6efdb;
     position: fixed;
     bottom: 0;
     width: 100%;
