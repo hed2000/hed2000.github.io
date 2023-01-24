@@ -26,10 +26,11 @@ footer a {
   display: block;
   color: #000;
   text-align: center;
-  padding: 10vw;
+  padding: 8.5vw;
     padding-top: 3vh;
     padding-bottom: 3vh;
   text-decoration: none;
+    font-size: 1.5vw;
 }
 
 .content {
