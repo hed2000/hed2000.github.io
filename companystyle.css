@@ -1,0 +1,42 @@
+#navbar {
+    overflow: hidden;
+    background-color: lightgray;
+    top: 0;
+    width: 100%;
+    margin: 1vh;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 1vh;
+  text-decoration: none;
+}
+
+.content {
+  padding: 16px;
+    width: 70vw;
+    background-color: lightgray;
+    margin: 3vh;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img {
+    display: inline-block;
+    margin: 1vw;
+}
+
+.left {
+    float: left; 
+}
+
+.right {
+    float: right; 
+}
