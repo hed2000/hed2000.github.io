@@ -1,5 +1,5 @@
 body {
-  background-color: #014c63;
+  background-color: $blue-800;
 }
 
 #navbar {
@@ -14,7 +14,6 @@ body {
   text-align: center;
   padding: 1vh;
   text-decoration: none;
-    font-size: 1.5vw;
 }
 
 footer {
@@ -31,11 +30,13 @@ footer a {
   display: block;
   color: #000;
   text-align: center;
-  padding: 8.5vw;
+  padding: auto;
     padding-top: 3vh;
-    padding-bottom: 3vh;
   text-decoration: none;
-    font-size: 1.5vw;
+}
+
+a {
+    color: #000
 }
 
 .content {
@@ -71,32 +72,22 @@ footer a {
     background-color: lightgray;
 }
 
-.button {
-    float: left;
-  display: block;
-  color: #000;
-  text-align: center;
-  padding: 2vh;
-  text-decoration: none;
-    background-color: lightgray; 
-    border: none;
-}
-
-.likebutton:active {
-    background-color: hotpink; 
-}
-
-.likebutton:focus {
-    background-color: hotpink; 
-}
-
-.galleryimg {
-    display: inline-block;
-    margin: 0.5vw;
-}
-
 .post {
     background-color: lightgray;
         margin-top: 10vh; 
     margin-bottom: 10vh;
+}
+
+.btn-like {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-black);
+  --bs-btn-border-color: var(--bd-violet);
+  --bs-btn-border-radius: .5rem;
+  --bs-btn-hover-color: var(--bs-pink);
+  --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+  --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+  --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
 }
